@@ -1,0 +1,501 @@
+.App {
+  text-align: center;
+
+}
+
+body{
+  /* background: red; */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   /* background: rgb(55, 55, 55);  */
+   background: url(https://th.bing.com/th/id/R.d0f02b050e787343fd002afef41ab537?rik=oHLYAoO97bo%2f2A&riu=http%3a%2f%2f4cornerscreative.com%2fwp-content%2fuploads%2f2016%2f09%2fBlack-Background-Images-14.jpg&ehk=oW97q5HIarLRVwesQGVVyclHiiaby6OfLWgQRIRBq74%3d&risl=&pid=ImgRaw&r=0);
+   background-position: sticky;
+   /* background-repeat: no-repeat; */
+   background-size: cover;
+   background-origin: content-box;
+   /* height: 100vh; */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.nj{
+  text-decoration: none;
+  /* color: white; */
+}
+
+.bt{
+  position: relative;
+  margin:20px !important;
+   
+}
+
+.marks{
+  padding: 20px;
+  background: rgb(230, 230, 230);
+  width: 30%;
+  margin: auto;
+  border: 3px solid blue;
+  margin-top: 5%;
+}
+
+h1{
+  color: rgb(255, 0, 0);
+  /* text-decoration: underline; */
+}
+
+/* #bt{
+  margin: 30px;
+} */
+
+
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+.h-custom {
+  height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+  .h-custom {
+  height: 100%;
+  }
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  font-weight: 400;
+  font-family: sans-serif;
+  /* background: #12c2e9; 
+  background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9); 
+  background: linear-gradient(to right, #ff8f96, #e6b4ff, #88e9ff); 
+   */
+}
+
+body, html, .App, #root, .outer {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.outer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+
+.inner {
+  /* width: 300px; */
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 4px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  animation-name: ex;
+  animation-duration:0.6s;
+  
+}
+
+@keyframes ex {
+  from {transform: rotateY(0deg)}
+  to {transform: rotateY(180deg)}
+}
+
+
+.kl{
+  margin-right: 20px !important;
+  background: red !important;
+}
+
+img{
+  width: 300px;
+  height: 200px;
+}
+
+.ot{
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.like{
+  position: relative;
+  color: red;
+  top: 4px;
+  animation-name: example;
+  animation-duration:0.3s;
+  font-size: 116%;
+}
+.kj{
+  position: relative;
+  top: 4px;
+  font-size: 116%;
+  color: black;
+}
+
+
+@keyframes example {
+  from {font-size: 100%;}
+  to {font-size: 110%;}
+}
+
+.user{
+  text-align: left;
+  font-size: 140%;
+  font-weight: 600;
+  background: black;
+  color: white;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  margin: 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* font-style: italic; */
+}
+
+.loc{
+  text-align: left;
+  font-size: 110%;
+  font-weight: 400;
+  background: rgb(255, 0, 0);
+  color: white;
+  margin: 0px;
+  padding: 5px 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.cap{
+  text-align: left;
+  font-size: 110%;
+  font-weight: 400;
+  background: grey;
+  color: white;
+  margin: 0px;
+  padding: 5px 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 300px;
+}
+
+.btnn{
+  position: relative;
+  background-color: blue;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  font-size: 110%;
+  margin: 10px;
+  cursor: pointer;
+  top: 1px;
+  /* display: block; */
+  /* display: none; */
+}
+
+.btnnn{
+  position: relative;
+  background-color: rgb(0, 0, 19);
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  font-size: 110%;
+  margin: 10px;
+  cursor: pointer;
+  top: 1px;
+  /* display: block; */
+  /* display: none; */
+}
+
+.pp{
+  margin: 0px;
+  padding: 8px 10px;
+  background-color: rgb(203, 198, 255);
+  display: flex;
+  justify-content: space-evenly;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+.er{
+  margin-bottom: 20px;
+}
+
+.kll{
+  background: black;
+  color: white;
+  padding: 5px 10px;
+  /* margin-top: 1px; */
+  text-align: left;
+  margin: 0px;
+  margin-top: 1px;
+}
+
+.oo{
+  position: relative;
+  /* margin-top: 40px; */
+  top: 4px;
+}
+
+
+.norm{
+  position: relative;
+  /* margin-top: 40px; */
+  top: 4px;
+}
+
+
+.ap{
+  background: orange;
+  color: white;
+  font-size: 140%;
+  padding: 5px 20px;
+  border: none;
+  top: 50px;
+  margin: 10px;
+  margin-top: 50px;
+  height: 35px;
+  margin-top: 25px;
+
+}
+
+.follow{
+  font-size: 60%;
+  float: right;
+  margin-top: 2px;
+  background: green;
+  padding: 5px 10px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.uu{
+  color: #eee;
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  /* background: black; */
+  /* width: 300px; */
+  margin-inline: 10px;
+  padding: 15px;
+  background-image: url(https://duncannagle.com/wp-content/uploads/2017/05/323809436.jpg);
+}
+
+.uk{
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+ 
+  
+}
+
+.ul{
+ 
+  width: 20%;
+  background-color:red;
+  border-radius: 60%;
+  font-size: 300%;
+  padding: 10px;
+  margin-top: 10px;
+  margin: 10px;
+}
+
+.name{
+  font-size: 200%;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.fg{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: -10px;
+  margin-bottom: -20px;
+}
+.ff{
+  display: flex;
+  position: relative;
+  font-size: 110%;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  flex-direction: row;
+  font-weight: 600;
+  padding: 10px 15px;
+  background: blue;
+  margin-inline: 5px;
+  top: 10px;
+}
+
+.cl{
+  color: rgb(255 110 0);
+  margin-inline: 8px;
+}
+
+.po{
+  flex: 30%;
+}
+
+.sec{
+  flex: 70%;
+}
+
+.cv{
+  width: 100%;
+}
+
+
+
+.tr{
+  display: flex;
+  width: 100%;
+
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.er{
+  width: 300px;
+  
+  
+}
+
+
+.br{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+
+.trr{
+  margin-inline:10px
+}
+
+
+
+.cd{
+  position: absolute;
+  background-color: black;
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 5px 10px;
+  /* bottom: 1px; */
+  margin: 0px;
+  /* bottom: 2px; */
+
+}
+
+#io{
+position: absolute;
+  top: 1px;
+  right: 2px;
+}
+
+.yellow{
+  color: #61dafb;
+  background: yellow;
+}
+
+.del{
+  position: relative;
+  color: red;
+  top: 2px;
+}
+
+#com{
+  color: #008000;
+  font-size: 110%;
+}
+
+#jl{
+  /* display: none; */
+}
+
+.kll{
+  background: black;
+  color: white;
+  padding: 5px 10px;
+  /* margin-top: 1px; */
+  text-align: left;
+  margin: 0px;
+  margin-top: 1px;
+  font-size: 100%;
+}
+
+/* .mcx{
+  display: none;
+} */
+
+
+.klll{
+  background: orange;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 200%;
+  color: white;
+  padding: 5px 10px;
+  /* margin-top: 1px; */
+    margin: 0px;
+  margin-top: 1px;
+}
+
+.col{
+  color: white;
+  background: red;
+  padding: 20px;
+}
